@@ -32,7 +32,6 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
     // CRUD routes for Products
     Route::apiResource('products', ProductController::class);
-
     // CRUD routes for Categories
     Route::apiResource('categories', CategoryController::class);
 
